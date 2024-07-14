@@ -4,13 +4,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Products</title>
+    <link href="../public/styles/tailwindoutput.css" rel="stylesheet">
 </head>
 <body>
+    <h1 class="text-3xl font-bold underline from-orange-300">
+        Hello world!
+    </h1>
     <header>
-        <nav>
-            <ul>
-                <li><a href="/">Shop</a></li>
-                <li><a href="/admin/add-product">Add Product</a></li>
+        <nav class="bg-white border-gray-200 dark:bg-gray-900">
+            <ul class="flex">
+                <li class="mr-3"><a class="inline-block border border-white rounded hover:border-gray-200 text-blue-500 hover:bg-gray-200 py-1 px-3" href="/">Shop</a></li>
+                <li class="mr-3"><a class="inline-block border border-white rounded hover:border-gray-200 text-blue-500 hover:bg-gray-200 py-1 px-3" href="/admin/add-product">Add Product</a></li>
             </ul>
         </nav>
     </header>
